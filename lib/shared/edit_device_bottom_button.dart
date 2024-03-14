@@ -28,8 +28,7 @@ class EditDeviceBottomButton extends StatelessWidget {
           icon: Icon(icon),
           label: Text(text),
           style: OutlinedButton.styleFrom(
-            primary: color,
-            backgroundColor: appTheme.canvasColor,
+            foregroundColor: color, backgroundColor: appTheme.canvasColor,
             side: BorderSide(
               width: 2.0,
               color: color,
